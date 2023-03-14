@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((' echo $PATHH | grep -o ":/" | wc -l + 1))
+echo $((` echo $PATHH | grep -o ":/" | wc -l` + 1))
